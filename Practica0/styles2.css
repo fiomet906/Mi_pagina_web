@@ -1,0 +1,40 @@
+p { color: black;
+    background-color: blue;
+    font-size: xx-large;
+}
+
+
+#fondo-video{ position: fixed; /*posición fija*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*cubre toda la pantalla*/
+    z-index: -1; /*detras del contenido*/
+}
+
+#fondo-video2{ position: fixed; /*posición fija*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*cubre toda la pantalla*/
+    z-index: -1; /*detras del contenido*/
+}
+
+#foto-perrito {
+    width: 300px;
+    height:auto;
+    border-radius: 300px;
+
+
+}
+/*Con esto creo un fondo completo al cuerpo de mi pagina*/
+body{background-color: black;
+    margin: 0;
+    min-height: 0;
+    /*Inserta un fondo animado al cuerpo de pagina ( no incluye video)
+    --background-image: url(imagenes.2/copos.mp4);*/
+    /*al usar cover : cubre toda la pantalla sin deformarse*/
+}
+
