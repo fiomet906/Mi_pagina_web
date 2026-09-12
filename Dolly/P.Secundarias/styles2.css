@@ -1,8 +1,17 @@
 p { color: black;
-    background-color: blue;
     font-size: xx-large;
 }
 
+
+
+#dog{color: aliceblue;
+    letter-spacing: 0.5cap;
+
+}
+#letra1 { color: bisque;
+    /*genera espacio entre letras */
+    letter-spacing: 1ch;
+}
 
 #fondo-video{ position: fixed; /*posición fija*/
     top: 0;
