@@ -7,3 +7,39 @@ h1 { color: rgb(36, 60, 197);
 }
 
 a{color: rgb(54, 163, 203);}
+
+
+.contenido {max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgb(58, 38, 75);
+}
+.menu-1 a { color: rgb(224, 224, 199);
+    letter-spacing: 2px;
+    
+}
+
+.logo img{ width: 70px;
+    height: 60px;
+    border-radius: 300px;
+    /*El display inline acomoda al lado de otros como span,a, strong*/
+    /*display: inline;*/
+    /*ocupa toda la linea uno debajo de otro div, p, h1*/
+    display: block;
+    /*se usan mas en imagenes, mezcla mayormente como se comporta por fuera la linea inline, por dentro el block*/
+    /*display: inline-block;*/
+    /*espacio vacio que ordea el elemento, es como un cuadro de foto completo*/
+    margin: 50 px auto;
+    /*le da un borde de color a la imagen*/
+    border: 2px solid black;
+}
+
+main{background-color: rgb(182, 143, 219);}
+
+

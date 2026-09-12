@@ -4,6 +4,7 @@ p { color: black;
 
 
 
+
 #dog{color: aliceblue;
     letter-spacing: 0.5cap;
 
@@ -12,7 +13,6 @@ p { color: black;
     /*genera espacio entre letras */
     letter-spacing: 1ch;
 }
-
 #fondo-video{ position: fixed; /*posición fija*/
     top: 0;
     left: 0;
@@ -31,6 +31,9 @@ p { color: black;
     z-index: -1; /*detras del contenido*/
 }
 
+
+
+
 #foto-perrito {
     width: 300px;
     height:auto;
@@ -45,5 +48,6 @@ body{background-color: black;
     /*Inserta un fondo animado al cuerpo de pagina ( no incluye video)
     --background-image: url(imagenes.2/copos.mp4);*/
     /*al usar cover : cubre toda la pantalla sin deformarse*/
-}
 
+
+}
